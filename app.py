@@ -4,11 +4,11 @@ from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
 # Channel + playlist IDs
-CHANNEL_URL = "https://www.youtube.com/shubhamgourtech"
+CHANNEL_URL = "https://github.com/mindsparkist/"
 PLAYLISTS = {
     "jenkins": {
         "title": "🧩 Jenkins Playlist",
-        "list_id": "PLBr8obKbpkYvJEaPmrzhHhwx8uPj8WYbg",
+        "list_id": "Jenkins-Setup",
         "gradient": "linear-gradient(135deg, #ff0844 0%, #ffb199 100%)"
     },
     "docker": {
