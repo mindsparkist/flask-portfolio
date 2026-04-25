@@ -1,0 +1,16 @@
+# Ignore the virtual environment created by Jenkins
+venv/
+.venv/
+
+# Ignore git metadata
+.git
+.gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local environment variables
+.env
